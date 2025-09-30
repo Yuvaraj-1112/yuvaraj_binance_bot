@@ -1,0 +1,140 @@
+2025-09-30 19:28:21,329 | INFO | Placing order: MARKET BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-09-30 19:28:21,360 | ERROR | Order failed
+Traceback (most recent call last):
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\cli.py", line 43, in main
+    res = bot.place_order(symbol=args.symbol, side=args.side, order_type=args.order_type, quantity=args.quantity, price=args.price, stopPrice=args.stopPrice)
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 68, in place_order
+    return self._send_signed_request('POST', path, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 29, in _send_signed_request
+    raise ValueError('API secret not provided for a signed request.')
+ValueError: API secret not provided for a signed request.
+2025-09-30 19:33:24,570 | INFO | Placing order: MARKET BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-09-30 19:33:24,570 | ERROR | Order failed
+Traceback (most recent call last):
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\cli.py", line 43, in main
+    res = bot.place_order(symbol=args.symbol, side=args.side, order_type=args.order_type, quantity=args.quantity, price=args.price, stopPrice=args.stopPrice)
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 68, in place_order
+    return self._send_signed_request('POST', path, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 29, in _send_signed_request
+    raise ValueError('API secret not provided for a signed request.')
+ValueError: API secret not provided for a signed request.
+2025-09-30 19:34:12,284 | INFO | Placing order: MARKET BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-09-30 19:34:12,312 | INFO | Order response: {
+  "mock": true,
+  "url": "https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&reduceOnly=false&timestamp=1759241052284&recvWindow=5000&signature=89efba155327b7f2e34919a6582fa8267b837851405561e2fb96c8ec59b85be1",
+  "method": "POST",
+  "params": {
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "type": "MARKET",
+    "quantity": 0.001,
+    "reduceOnly": "false",
+    "timestamp": 1759241052284,
+    "recvWindow": 5000
+  }
+}
+2025-09-30 19:37:15,019 | INFO | Placing order: LIMIT SELL BTCUSDT qty=0.001 price=25000.0 stopPrice=None
+2025-09-30 19:37:15,019 | INFO | Order response: {
+  "mock": true,
+  "url": "https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=SELL&type=LIMIT&quantity=0.001&reduceOnly=false&price=25000.0&timeInForce=GTC&timestamp=1759241235019&recvWindow=5000&signature=5a56767a14d1e3d232f91b2b72e7aa3af49792c23a023556eb8e7937f9c7bbbd",
+  "method": "POST",
+  "params": {
+    "symbol": "BTCUSDT",
+    "side": "SELL",
+    "type": "LIMIT",
+    "quantity": 0.001,
+    "reduceOnly": "false",
+    "price": 25000.0,
+    "timeInForce": "GTC",
+    "timestamp": 1759241235019,
+    "recvWindow": 5000
+  }
+}
+2025-09-30 19:37:27,432 | INFO | Placing order: STOP_MARKET SELL BTCUSDT qty=0.001 price=None stopPrice=24000.0
+2025-09-30 19:37:27,432 | INFO | Order response: {
+  "mock": true,
+  "url": "https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=SELL&type=STOP_MARKET&quantity=0.001&reduceOnly=false&stopPrice=24000.0&timestamp=1759241247432&recvWindow=5000&signature=2fdfd12bf0064091ba6ee3b1929b56826cbf77b9fb330cfc64754d465eb2ee70",
+  "method": "POST",
+  "params": {
+    "symbol": "BTCUSDT",
+    "side": "SELL",
+    "type": "STOP_MARKET",
+    "quantity": 0.001,
+    "reduceOnly": "false",
+    "stopPrice": 24000.0,
+    "timestamp": 1759241247432,
+    "recvWindow": 5000
+  }
+}
+2025-09-30 20:53:42,395 | INFO | Placing order: MARKET BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-09-30 20:53:42,395 | ERROR | Order failed
+Traceback (most recent call last):
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\cli.py", line 43, in main
+    res = bot.place_order(symbol=args.symbol, side=args.side, order_type=args.order_type, quantity=args.quantity, price=args.price, stopPrice=args.stopPrice)
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 68, in place_order
+    return self._send_signed_request('POST', path, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 29, in _send_signed_request
+    raise ValueError('API secret not provided for a signed request.')
+ValueError: API secret not provided for a signed request.
+2025-09-30 20:54:17,529 | INFO | Placing order: LIMIT SELL BTCUSDT qty=0.001 price=25000.0 stopPrice=None
+2025-09-30 20:54:17,529 | ERROR | Order failed
+Traceback (most recent call last):
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\cli.py", line 43, in main
+    res = bot.place_order(symbol=args.symbol, side=args.side, order_type=args.order_type, quantity=args.quantity, price=args.price, stopPrice=args.stopPrice)
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 68, in place_order
+    return self._send_signed_request('POST', path, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 29, in _send_signed_request
+    raise ValueError('API secret not provided for a signed request.')
+ValueError: API secret not provided for a signed request.
+2025-09-30 20:57:35,863 | INFO | Placing order: LIMIT SELL BTCUSDT qty=0.001 price=25000.0 stopPrice=None
+2025-09-30 20:57:35,864 | ERROR | Order failed
+Traceback (most recent call last):
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\cli.py", line 43, in main
+    res = bot.place_order(symbol=args.symbol, side=args.side, order_type=args.order_type, quantity=args.quantity, price=args.price, stopPrice=args.stopPrice)
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 68, in place_order
+    return self._send_signed_request('POST', path, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 29, in _send_signed_request
+    raise ValueError('API secret not provided for a signed request.')
+ValueError: API secret not provided for a signed request.
+2025-09-30 20:58:35,837 | INFO | Placing order: MARKET BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-09-30 20:58:35,838 | ERROR | Order failed
+Traceback (most recent call last):
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\cli.py", line 43, in main
+    res = bot.place_order(symbol=args.symbol, side=args.side, order_type=args.order_type, quantity=args.quantity, price=args.price, stopPrice=args.stopPrice)
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 68, in place_order
+    return self._send_signed_request('POST', path, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 29, in _send_signed_request
+    raise ValueError('API secret not provided for a signed request.')
+ValueError: API secret not provided for a signed request.
+2025-09-30 20:59:57,750 | INFO | Placing order: MARKET BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-09-30 20:59:57,750 | ERROR | Order failed
+Traceback (most recent call last):
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\cli.py", line 43, in main
+    res = bot.place_order(symbol=args.symbol, side=args.side, order_type=args.order_type, quantity=args.quantity, price=args.price, stopPrice=args.stopPrice)
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 68, in place_order
+    return self._send_signed_request('POST', path, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\insan\Downloads\your_name_binance_bot\src\basic_bot.py", line 29, in _send_signed_request
+    raise ValueError('API secret not provided for a signed request.')
+ValueError: API secret not provided for a signed request.
+2025-09-30 21:01:19,054 | INFO | Placing order: MARKET BUY BTCUSDT qty=0.001 price=None stopPrice=None
+2025-09-30 21:01:19,060 | INFO | Order response: {
+  "mock": true,
+  "url": "https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&reduceOnly=false&timestamp=1759246279054&recvWindow=5000&signature=5e091aed17c7a2d8eba8b2082c26793c97d82e7d9c72fc85e6d0cab2aa5da547",
+  "method": "POST",
+  "params": {
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "type": "MARKET",
+    "quantity": 0.001,
+    "reduceOnly": "false",
+    "timestamp": 1759246279054,
+    "recvWindow": 5000
+  }
+}
